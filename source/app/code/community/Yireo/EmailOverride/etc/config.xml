@@ -23,7 +23,13 @@
                 <class>Yireo_EmailOverride_Helper</class>
             </emailoverride>
         </helpers>
-
+        <template>
+            <email>
+                <contacts_email_email_template translate="label" module="contacts">
+                    <type>html</type>
+                </contacts_email_email_template>
+            </email>
+        </template>
         <models>
             <emailoverride>
                 <class>Yireo_EmailOverride_Model</class>
